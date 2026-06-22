@@ -1,0 +1,30 @@
+# Datasets (do not commit raw frames / videos)
+final_FFpp/
+data/
+*.mp4
+*.avi
+
+# Model weights — track these with Git LFS or share via Drive, not plain git
+*.pth
+*.pt
+*.ckpt
+!checkpoints/.gitkeep
+
+# Generated artifacts
+temp_frames/
+*.png
+!assets/*.png
+training_history.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
